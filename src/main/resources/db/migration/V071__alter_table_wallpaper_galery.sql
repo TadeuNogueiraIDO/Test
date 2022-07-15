@@ -1,0 +1,1 @@
+alter table wallpaper_gallery add column "name" varchar(100) null;

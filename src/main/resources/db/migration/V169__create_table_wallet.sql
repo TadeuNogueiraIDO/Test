@@ -1,0 +1,23 @@
+CREATE TABLE public.wallet (
+	id bigserial NOT NULL,
+	wallet_nickname varchar NOT NULL,
+	document_type varchar NOT NULL,
+	"name" varchar NOT NULL,
+	"document" varchar NOT NULL,
+	withdraw_frequency_id bigserial NOT NULL,
+	telephone varchar NOT NULL,
+	user_id bigserial NOT NULL,
+	agency bigserial NOT NULL,
+	digit bigserial NOT NULL,
+	account bigserial NOT NULL,
+	digit2 bigserial NOT NULL,
+	"version" int4 NULL,
+	dt_created timestamp NULL,
+	dt_updated timestamp NULL,
+	dt_deleted timestamp NULL,
+	bank_id bigserial NOT NULL,
+	CONSTRAINT wallet_pk PRIMARY KEY (id),
+	CONSTRAINT wallet_fk FOREIGN KEY (user_id) REFERENCES public."user"(id),
+	CONSTRAINT wallet_fk_1 FOREIGN KEY (bank_id) REFERENCES public."bank"(id),
+	CONSTRAINT wallet_fk_2 FOREIGN KEY (withdraw_frequency_id) REFERENCES public.wallet_withdraw_frequency(id)
+);

@@ -1,0 +1,16 @@
+ALTER TABLE public.notification DROP CONSTRAINT notification_type_fk;
+ALTER TABLE public.notification DROP COLUMN notification_type;
+ALTER TABLE public.notification DROP COLUMN id_lead;
+ALTER TABLE public.notification DROP COLUMN id_contact_us;
+ALTER TABLE public.notification DROP COLUMN id_wallet;
+ALTER TABLE public.notification DROP COLUMN id_single_quick_pay;
+ALTER TABLE public.notification DROP COLUMN id_shop_quick_pay;
+ALTER TABLE public.notification DROP COLUMN id_newsletter_form;
+ALTER TABLE public.notification ADD title varchar NULL;
+ALTER TABLE public.notification ADD message varchar NULL;
+ALTER TABLE public.notification ADD icon int8 NULL;
+ALTER TABLE public.notification ADD content_link varchar NULL;
+ALTER TABLE public.notification ADD type_notification varchar NULL;
+DROP TABLE public.type_notification;
+ALTER TABLE public."user" ADD validadete_email bool NOT NULL DEFAULT false;
+ALTER TABLE public.notification ADD value varchar NULL;

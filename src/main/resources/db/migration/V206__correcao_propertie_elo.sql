@@ -1,0 +1,1 @@
+UPDATE payment_type set name ='api.model.payment.elo' where id=8;

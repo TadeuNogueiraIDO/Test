@@ -1,0 +1,35 @@
+CREATE TABLE public.state (
+	id bigserial NOT NULL,
+	state varchar NOT NULL,
+	acronym varchar NOT NULL ,
+	CONSTRAINT state_pk PRIMARY KEY (id)
+);
+
+INSERT into state (id, state, acronym) VALUES
+(1, 'ACRE', 'AC'),
+(2, 'ALAGOAS', 'AL'),
+(3, 'AMAPÁ', 'AP'),
+(4, 'AMAZONAS', 'AM'),
+(5, 'BAHIA', 'BA'),
+(6, 'CEARÁ', 'CE'),
+(7, 'DISTRITO FEDERAL', 'DF'),
+(8, 'ESPÍRITO SANTO', 'ES'),
+(9, 'GOIÁS', 'GO'),
+(10, 'MARANHÃO', 'MA'),
+(11, 'MATO GROSSO', 'MT'),
+(12, 'MATO GROSSO DO SUL', 'MS'),
+(13, 'MINAS GERAIS', 'MG'),
+(14, 'PARÁ', 'PA'),
+(15, 'PARAÍBA', 'PB'),
+(16, 'PARANÁ', 'PR'),
+(17, 'PERNAMBUCO', 'PE'),
+(18, 'PIAUÍ', 'PI'),
+(19, 'RIO DE JANEIRO', 'RJ'),
+(20, 'RIO GRNADE DO NORTE', 'RN'),
+(21, 'RIO GRANDE SO SUL', 'RS'),
+(22, 'RONDÔNIA', 'RO'),
+(23, 'RORAIMA', 'RR'),
+(24, 'SANTA CATARINA', 'SC'),
+(25, 'SÃO PAULO', 'SP'),
+(26, 'SERGIPE', 'SE'),
+(27, 'TOCANTINS', 'TO')

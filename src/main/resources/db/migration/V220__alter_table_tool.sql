@@ -1,0 +1,1 @@
+UPDATE tool SET "name"='api.model.tools.bannerimage', description='api.model.tools.bannerimageinfo', active=true, reuse=true, url='string', dt_created='2022-01-20 18:10:35.611', dt_updated=NULL, dt_deleted=NULL, "version"=0, availability='START_FREE', file_id=849, appversion='0.0.1', cod_name='IMAGEBANNER', is_listable=true, info_html='api.model.tools.bannerimagefaq' WHERE id=5;

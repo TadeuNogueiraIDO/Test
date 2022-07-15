@@ -1,0 +1,1 @@
+ALTER TABLE public.ido add column template varchar(50);

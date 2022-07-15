@@ -1,0 +1,1 @@
+ALTER TABLE public.user_password_recovery ADD used boolean NOT NULL;

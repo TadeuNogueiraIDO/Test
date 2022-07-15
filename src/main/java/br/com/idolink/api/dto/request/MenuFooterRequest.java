@@ -1,0 +1,24 @@
+package br.com.idolink.api.dto.request;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class MenuFooterRequest {
+
+	private Long logo;
+	
+	private Boolean unpinMenu;
+	
+	private Boolean activateFooter;
+	
+	private List<ItemMenuFooterRequest> itens;
+	
+}

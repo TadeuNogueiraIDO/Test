@@ -1,0 +1,1 @@
+ALTER TABLE pre_def_model_param ADD COLUMN value VARCHAR(50);

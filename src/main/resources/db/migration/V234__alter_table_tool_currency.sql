@@ -1,0 +1,20 @@
+ALTER TABLE public.tool_currency ADD price float8 NULL;
+
+UPDATE public.tool_currency SET price=10 WHERE id=1;
+UPDATE public.tool_currency SET price=20 WHERE id=2;
+UPDATE public.tool_currency SET price=10 WHERE id=3;
+UPDATE public.tool_currency SET price=20 WHERE id=4;
+UPDATE public.tool_currency SET price=10 WHERE id=5;
+UPDATE public.tool_currency SET price=20 WHERE id=6;
+UPDATE public.tool_currency SET price=10 WHERE id=7;
+UPDATE public.tool_currency SET price=20 WHERE id=8;
+UPDATE public.tool_currency SET price=10 WHERE id=9;
+UPDATE public.tool_currency SET price=20 WHERE id=10;
+UPDATE public.tool_currency SET price=10 WHERE id=11;
+UPDATE public.tool_currency SET price=20 WHERE id=12;
+UPDATE public.tool_currency SET price=10 WHERE id=13;
+UPDATE public.tool_currency SET price=20 WHERE id=14;
+UPDATE public.tool_currency SET price=10 WHERE id=15;
+UPDATE public.tool_currency SET price=20 WHERE id=16;
+UPDATE public.tool_currency SET price=10 WHERE id=17;
+UPDATE public.tool_currency SET price=20 WHERE id=18;

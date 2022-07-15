@@ -1,0 +1,1 @@
+alter table "user" add column birth_data date null;

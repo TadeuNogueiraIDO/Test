@@ -1,0 +1,1 @@
+ALTER TABLE public.tool add number_test_days int8; 

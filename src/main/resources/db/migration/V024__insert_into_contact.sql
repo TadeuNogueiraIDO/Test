@@ -1,0 +1,12 @@
+INSERT INTO contact (dt_created,dt_updated,"version",logo,mask,"name")
+    VALUES ('2021-12-07 14:52:16.605','2021-12-07 14:52:16.605',0,'string','string','EMAIL');
+INSERT INTO contact (dt_created,dt_updated,"version",logo,mask,"name")
+    VALUES ('2021-12-07 14:52:16.605','2021-12-07 14:52:16.605',0,'string','string','FONE');
+INSERT INTO contact (dt_created,dt_updated,"version",logo,mask,"name")
+    VALUES ('2021-12-07 14:52:16.605','2021-12-07 14:52:16.605',0,'string','string','SMS');
+INSERT INTO contact (dt_created,dt_updated,"version",logo,mask,"name")
+    VALUES ('2021-12-07 14:52:16.605','2021-12-07 14:52:16.605',0,'string','string','WHATSAPP');
+INSERT INTO contact (dt_created,dt_updated,"version",logo,mask,"name")
+    VALUES ('2021-12-07 14:52:16.605','2021-12-07 14:52:16.605',0,'string','string','ENDERECO');
+INSERT INTO contact (dt_created,dt_updated,"version",logo,mask,"name")
+    VALUES ('2021-12-07 14:52:16.605','2021-12-07 14:52:16.605',0,'string','string','TELEGRAM');

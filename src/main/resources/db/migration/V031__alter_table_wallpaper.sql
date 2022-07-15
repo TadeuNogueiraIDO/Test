@@ -1,0 +1,1 @@
+ALTER TABLE public.wallpaper_gallery ADD thumbnail_id bigint NULL;

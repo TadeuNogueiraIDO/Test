@@ -1,0 +1,65 @@
+replicaCount: 1
+namespace: "dev"
+image:
+  repository: 844921857298.dkr.ecr.sa-east-1.amazonaws.com/ido-business
+  pullPolicy: Always
+  tag: ""
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+podAnnotations: {}
+podSecurityContext: {}
+securityContext: {}
+service:
+  type: ClusterIP
+  port: 8080
+configmaps:
+  EXAMPLE_CONFIG_VALUE : "VALOR_VARIAVEL"
+  API_STORAGE_URL: "http://ido-storage.dev.svc.cluster.local:8080"
+  URL_AUTHORIZATION: "https://api-dev.idolink.com.br/ido-authentication"
+  POSTGRESQL_URL: "ido-dev-hlg.cklyjzzcdvjn.sa-east-1.rds.amazonaws.com"
+  POSTGRESQL_PORT: "5432"
+  POSTGRESQL_DATABASE: "ido_business_dev"
+  ENV: "dev"
+  EMAIL_HOST: "smtp.sendgrid.net"
+  EMAIL_USER: "apikey"
+  EMAIL_REMETENTE: "Idolink <github.idolink@gmail.com>"
+  PAGAR_ME_HOST: "https://api.pagar.me"
+  API_ONE_SIGNAL_HOST: "https://onesignal.com/api/"
+  API_HOST: "https://api-dev.idolink.com.br/ido-business"
+secrets:
+  POSTGRESQL_USER: "cG9zdGdyZXM="
+  POSTGRESQL_PASSWORD: "aWRvRE9JU1pFUk8yMA=="
+  PAGAR_ME_ACESS_KEY: "YWtfdGVzdF9iVUZjaWtuZ0VHSEFVU0cwTjlRTVczQWQ4OXFHZTM="
+  EMAIL_USER_PASS: "U0cuQ3VNLXdQdldUVUNpazhKMlNSTUY3dy56ZXp2WkdDRDQ0dndkVUZmdjNuY0lKdEttUXFIMVM4TEdVMU40UHV6clRV"
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: chart-example.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+metricsUrl: "/actuator/prometheus"
+resources:
+   limits:
+     cpu: 400m
+     memory: 800Mi
+   requests:
+     cpu: 300m
+     memory: 600Mi
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+nodeSelector: {}
+tolerations: []
+affinity: {}

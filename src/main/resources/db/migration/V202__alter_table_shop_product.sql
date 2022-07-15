@@ -1,0 +1,1 @@
+ALTER TABLE public.shop_product ADD not_stock boolean NOT NULL DEFAULT false;

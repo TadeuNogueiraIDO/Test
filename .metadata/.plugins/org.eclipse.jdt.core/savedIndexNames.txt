@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Daniel\Desktop\IdoLink\ido-business\.metadata\.plugins\org.eclipse.jdt.core
+2777053781.index
+3082951791.index
+1865797976.index

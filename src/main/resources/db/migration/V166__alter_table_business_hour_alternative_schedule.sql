@@ -1,0 +1,1 @@
+ALTER TABLE public.business_hour_alternative_schedule ADD closed bool NOT NULL DEFAULT false;

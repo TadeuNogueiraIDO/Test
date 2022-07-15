@@ -1,0 +1,1 @@
+update country set ddi =  concat('+', ddi) where ddi not like '%+%';

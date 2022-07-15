@@ -1,0 +1,1 @@
+ALTER TABLE public.local_pickup ADD COLUMN is_enabled boolean;

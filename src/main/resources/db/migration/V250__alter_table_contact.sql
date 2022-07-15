@@ -1,0 +1,1 @@
+ALTER TABLE public.ido_contact ADD activated boolean NULL DEFAULT false;

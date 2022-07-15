@@ -1,0 +1,1 @@
+ALTER TABLE public.tool ADD COLUMN file_id BIGINT;

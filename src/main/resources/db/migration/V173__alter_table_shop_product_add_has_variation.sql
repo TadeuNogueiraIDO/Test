@@ -1,0 +1,1 @@
+ALTER TABLE public.shop_product ADD COLUMN has_variation boolean;

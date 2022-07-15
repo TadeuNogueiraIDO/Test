@@ -1,0 +1,1 @@
+ALTER TABLE public.tool DROP COLUMN price;

@@ -1,0 +1,1 @@
+ALTER TABLE public.image_carousel_item ALTER COLUMN image_carousel_item_detail_id DROP NOT NULL;

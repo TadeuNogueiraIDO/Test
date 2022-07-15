@@ -1,0 +1,1 @@
+ALTER TABLE image_carousel_item ADD COLUMN dial_code VARCHAR(10) NULL;

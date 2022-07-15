@@ -1,0 +1,1 @@
+ALTER TABLE public.wallpaper_color_gradient_step ADD color varchar(20) NOT NULL;

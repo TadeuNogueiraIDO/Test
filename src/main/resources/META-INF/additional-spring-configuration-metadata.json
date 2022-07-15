@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "idolink.email.remetente",
+    "type": "java.lang.String",
+    "description": "A description for 'idolink.email.remetente'"
+  },
+  {
+    "name": "auth.public-sing-up-url-enable",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.public-sing-up-url-enable'"
+  },
+  {
+    "name": "auth.jwt-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.jwt-secret'"
+  },
+  {
+    "name": "auth.jwt-expiration-miliseg",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.jwt-expiration-miliseg'"
+  },
+  {
+    "name": "auth.reset-password-token-expiration-miliseg",
+    "type": "java.lang.String",
+    "description": "A description for 'auth.reset-password-token-expiration-miliseg'"
+  },
+  {
+    "name": "URL_AUTHORIZATION",
+    "type": "java.lang.String",
+    "description": "A description for 'URL_AUTHORIZATION'"
+  }
+]}

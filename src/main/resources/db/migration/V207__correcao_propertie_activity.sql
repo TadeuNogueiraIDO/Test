@@ -1,0 +1,2 @@
+update public.activity set segment = 'api.ido.activities.bed.tableandbath' where segment = 'api.ido.activities.bed;tableandbath';
+update public.tool SET info_html = 'api.model.tools.pdffaq' where id=1;

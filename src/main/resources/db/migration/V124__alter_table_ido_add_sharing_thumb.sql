@@ -1,0 +1,1 @@
+ALTER TABLE public.ido add COLUMN sharing_thumb varchar(250); 

@@ -1,0 +1,1 @@
+ALTER TABLE public.attached_pdf ADD banner int8 NULL;
